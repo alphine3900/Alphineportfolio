@@ -1,0 +1,248 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body{
+  background-color: #e5e4e2;
+}
+/* header styling */
+.header {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height:100vh !important;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(27, 46, 71, 0.1),
+    rgba(200, 255, 255, 0.1)
+  );
+  top: 0;
+  left: 0;
+}
+
+/* navbar styling */
+nav{
+  background: black;
+}
+nav a {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 50px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+nav a:hover:not(.navbar-brand) {
+  background-color: #e5e4e2;
+  z-index: 15;
+  transform: scale(1.2);
+  color: black;
+}
+.navbar-brand {
+  font-size: 28px;
+}
+
+/* styling introduction */
+
+.introduction {
+  color: white;
+  width: fit-content;
+  height: 100px;
+  margin: auto;
+  position: relative;
+  top: 30%;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction .scroll{
+  width: 96px;
+}
+.navbar-toggler-icon img {
+  height: 32px;
+}
+
+.navbar-collapse.show {
+  justify-content: flex-start;
+}
+
+/* styling for profile picture */
+
+.profile-picture {
+  border-radius: 50%;
+  width: fit-content;
+  display: inherit;
+  justify-content: center;
+  
+}
+.profile-picture img {
+  width: 15em;
+  
+  border-radius: 20%;
+}
+
+/* style name */
+h1.name {
+  font-weight: 700;
+  text-shadow: 2px 2px 2px #375193, 2px 3px 2px #375193, 2px 4px 2px #375193,2px 5px 2px #375193,2px 6px 2px #375193,2px 7px 2px #375193,2px 8px 2px #375193,2px 3px 9px #375193,2px 10px 2px #375193,2px 11px 2px #375193,2px 20px 5px rgba(20,20,20,0.4),2px 24px 12px rgba(20,20,20,0.2),2px 26px 36px rgba(20,20,20,0.2),2px 32px 64px rgba(20,20,20,0.4);
+}
+
+.description p{
+  font-size: 1.3em;
+}
+.about-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+}
+.about-menu a, .about-menu button{
+  background-color: #525868;
+}
+
+.about{
+  background:transparent;
+}
+.about .card{
+  background-color:#375193;
+  color:#ffffff;
+}
+.about .card:not(#profile-card){
+  display:none;
+}
+#contact{
+  
+    background-color:#375193;
+    color:#ffffff;
+  
+}
+#SoftSkills{
+  
+    background-color:#375193;
+    color:#ffffff;
+  
+}
+
+/* style visit project website button */
+
+.card-footer a{
+  
+  width:10rem;
+}
+.card-footer{
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+
+#about-section{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.about .card ul{
+  text-align: left;
+}
+body h1{
+font-style: italic;
+}
+/* assign cards the same height */
+#projects{
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#projects a{
+  background-color: #525868;
+}
+
+#projects .card{
+  height: 25rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  background-color: #cacaca;
+  box-shadow: 0.5px 0.5px #525868;
+  
+}
+
+#projects .card:hover{
+
+  transform: scale(1.2);
+  z-index: 3;
+  
+}
+
+#project .card .card-body, #project .card .card-body{
+  display: flex;
+  justify-content: center;
+}
+
+.card .card-title {
+  text-align: center;
+}
+
+.card-desc p{
+  text-align: center;
+}
+.footer{
+  height:100px;
+  background-color: #e5e4e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer img{
+  height:24px;
+}
+/* media query for medium screens */
+@media only screen and (min-width:480px){
+.introduction{
+  top:40%;
+}
+nav{
+  background: transparent;
+}
+.about-menu{
+  justify-content: flex-start;
+
+}
+.about-menu button{
+  margin-right: 3em;
+
+}
+
+.about .card ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+#interests-card ul{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: circle!important;
+}
+#interests-card ul li:not(li:last-child){
+  padding-right: 20px;;
+  border-right:1px black solid;
+}
+}
+
+/* media query for large screen */
+@media only screen and (min-width:768px){
+
+
+
+}
