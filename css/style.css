@@ -85,6 +85,7 @@ nav a:hover:not(.navbar-brand) {
   width: fit-content;
   display: inherit;
   justify-content: center;
+  margin-top: -40px;
   
 }
 .profile-picture img {
