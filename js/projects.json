@@ -1,11 +1,11 @@
 [{
   "id": "photographyWebsite",
-  "name": "Photography Website",
-  "path": "img/photo.png",
+  "name": "Uwazi Polls",
+  "path": "img/uwazi.png",
   "description":
-    "Photography website used to display photographs in a gallery grid.",
-  "languages": "html, css",
-  "github": "https://alphine3900.github.io/PHOTOGRAPHY-WEBSITE/"
+    "Flask application where students can vote in student elections.The goal is to minimize the cost of planning elections.",
+  "languages": "html, css, python",
+  "github": "https://uwazi-poll.herokuapp.com/"
 },
 {
   "id": "streetWiseFood",
@@ -29,7 +29,7 @@
   "name": "Awwards Master",
   "path": "img/aw.png",
   "description":
-    "A web application to post websites and other web projects as well as review posted projects. ",
+    "An application to post websites and other web projects as well as review posted projects. ",
   "languages": "html,css,javascript,bootstrap,jquery",
   "github": "https://alvoawwards.herokuapp.com"
 },
@@ -47,18 +47,18 @@
   "name": "Delani Studio",
   "path": "img/delanistudio.png",
   "description":
-    "Landing page for a design company.",
+    "This is a website for an online studio called Delani that showcases the services offered, a portfolio with a contact section where potential clients can contact the studio management.",
   "languages": "html,css,javascript,jquery",
-  "github": "https://alphine3900.github.io/Delani-studio-website/"
+  "github": "https://alphine3900.github.io/studio/"
 },
 {
   "id": "pizzarana",
   "name": "Pizzarana",
-  "path": "img/pizzarana.png",
+  "path": "img/piz.png",
   "description":
-    "Pizza ordering application.",
-  "languages": "html,css,javascript,jquery",
-  "github": "https://alphine3900.github.io/Pizza-place-website/"
+    "This application allows users to select and order their best pizzas depending on  type,price and size.",
+  "languages": "html,css,javascript,jquery,python",
+  "github": "https://pizza-shop-moringa.herokuapp.com/"
 },
 {
   "id": "expensetracker",
@@ -71,40 +71,40 @@
 },
 {
   "id": "akannamegenerator",
-  "name": "Akan Name Generator",
-  "path": "img/akanamegenerator.png",
+  "name": "Help Desk APP",
+  "path": "img/help.png",
   "description":
-    "Application to look up your Akan name by providing your birthday.",
-  "languages": "html,css,javascript,jquery",
-  "github": "https://alphine3900.github.io/Amazing-Ghananian-Naming-Website/"
+    "Help Desk App application focuses in making the life of programmers more easy. Through bringing solutions accessible enough.",
+  "languages": "html,css,javascript,jquery,python",
+  "github": "https://helpdesk2022.herokuapp.com/"
 },
 
 {
   "id": "quotes",
-  "name": "Quotes App",
-  "path": "img/qoutes.png",
+  "name": "Ecommerce online bike App",
+  "path": "img/bike.png",
   "description":
-    "Lists Quotes and allows the user to add more.You can Upvote and downvote a quote",
-  "languages": "html,css,angular,typescript,bootstrap,jquery",
-  "github": "https://github.com/alphine3900/ALPHINE-S-QUOTE-APPLICACTION"
+    "An ecommerce online bike shope",
+  "languages": "html,css,React,typescript,bootstrap,jquery",
+  "github": "https://topbike.netlify.app/"
 },
 {
   "id": "gitmine",
-  "name": "Github finder",
-  "path": "img/git.png",
+  "name": "Breaking Bad",
+  "path": "img/break.png",
   "description":
-    "Search for users and repos on github",
+    "Application that displays actors of the breaking bad series",
   "languages": "html,css,angular,typescript,bootstrap",
-  "github": "https://alphine3900.github.io/Githubfinder//"
+  "github": "https://github.com/Marcos8060/Breaking-Bad"
 },
 {
   "id": "prism-gallery",
-  "name": "My Gallery",
-  "path": "img/gallery.png",
+  "name": "3D ANIMATION",
+  "path": "img/3.png",
   "description":
-    "Post and view photos",
+    "Rotating 3D Gallery",
   "languages": "html,css,django",
-  "github": "https://alvo-gallery.herokuapp.com/"
+  "github": "https://alphine3900.github.io/3D-Animation/"
 }
 
 ]

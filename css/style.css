@@ -81,7 +81,7 @@ nav a:hover:not(.navbar-brand) {
 /* styling for profile picture */
 
 .profile-picture {
-  border-radius: 50%;
+  border-radius: 600%;
   width: fit-content;
   display: inherit;
   justify-content: center;
